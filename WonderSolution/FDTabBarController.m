@@ -58,8 +58,10 @@
     
     viewController.tabBarItem.image = normalImage;
     viewController.tabBarItem.selectedImage = selectedImage;
+    viewController.edgesForExtendedLayout = UIRectEdgeNone;
     
     FDNavigationController *navigationController = [[FDNavigationController alloc] initWithRootViewController:viewController];
+    
     [self addChildViewController:navigationController];
 }
 

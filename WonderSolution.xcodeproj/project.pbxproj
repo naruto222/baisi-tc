@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F0D56AA81C994A67002071F9 /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = F0D56AA71C994A67002071F9 /* UIBarButtonItem+Extension.m */; };
 		F0E3DF4F1C97F30600196E44 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F0E3DF4E1C97F30600196E44 /* main.m */; };
 		F0E3DF521C97F30600196E44 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F0E3DF511C97F30600196E44 /* AppDelegate.m */; };
 		F0E3DF5A1C97F30600196E44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0E3DF591C97F30600196E44 /* Assets.xcassets */; };
@@ -41,6 +42,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F0D56AA61C994A67002071F9 /* UIBarButtonItem+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extension.h"; sourceTree = "<group>"; };
+		F0D56AA71C994A67002071F9 /* UIBarButtonItem+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extension.m"; sourceTree = "<group>"; };
+		F0D56AAA1C994F01002071F9 /* FDConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDConst.h; sourceTree = "<group>"; };
 		F0E3DF4A1C97F30600196E44 /* WonderSolution.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WonderSolution.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0E3DF4E1C97F30600196E44 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F0E3DF501C97F30600196E44 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -143,7 +147,10 @@
 				F0E3DF931C97F60F00196E44 /* FDTopicViewController.m */,
 				F0E3DF951C98002400196E44 /* UIView+Extension.h */,
 				F0E3DF961C98002400196E44 /* UIView+Extension.m */,
+				F0D56AA61C994A67002071F9 /* UIBarButtonItem+Extension.h */,
+				F0D56AA71C994A67002071F9 /* UIBarButtonItem+Extension.m */,
 				F0E3DF981C9807D000196E44 /* PrefixHeader.pch */,
+				F0D56AAA1C994F01002071F9 /* FDConst.h */,
 			);
 			path = WonderSolution;
 			sourceTree = "<group>";
@@ -310,6 +317,7 @@
 				F0E3DF911C97F5AB00196E44 /* FDMeViewController.m in Sources */,
 				F0E3DF821C97F4CF00196E44 /* FDTabBarController.m in Sources */,
 				F0E3DF851C97F53400196E44 /* FDNavigationController.m in Sources */,
+				F0D56AA81C994A67002071F9 /* UIBarButtonItem+Extension.m in Sources */,
 				F0E3DF521C97F30600196E44 /* AppDelegate.m in Sources */,
 				F0E3DF4F1C97F30600196E44 /* main.m in Sources */,
 				F0E3DF941C97F60F00196E44 /* FDTopicViewController.m in Sources */,
@@ -531,6 +539,7 @@
 				F0E3DF791C97F30600196E44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F0E3DF7A1C97F30600196E44 /* Build configuration list for PBXNativeTarget "WonderSolutionTests" */ = {
 			isa = XCConfigurationList;
@@ -539,6 +548,7 @@
 				F0E3DF7C1C97F30600196E44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F0E3DF7D1C97F30600196E44 /* Build configuration list for PBXNativeTarget "WonderSolutionUITests" */ = {
 			isa = XCConfigurationList;
@@ -547,6 +557,7 @@
 				F0E3DF7F1C97F30600196E44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

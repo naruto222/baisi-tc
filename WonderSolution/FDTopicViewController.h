@@ -10,4 +10,8 @@
 
 @interface FDTopicViewController : UIViewController
 
+@property (nonatomic, assign) FDTopicType type;
+
++ (FDTopicViewController *)createViewControllerTitle:(NSString *)_title withType:(FDTopicType)_type;
+
 @end
